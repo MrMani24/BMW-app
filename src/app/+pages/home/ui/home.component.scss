@@ -1,0 +1,17 @@
+#b1{
+  width:85em;
+}
+#b2{
+  width: 100%;
+  #b3{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #b2 {
+    width: 50%;
+  }
+}
+li{
+  list-style-type: none;
+}
