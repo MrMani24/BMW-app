@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-public-navigation',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet , RouterLink],
   templateUrl: './public-navigation.component.html',
   styleUrl: './public-navigation.component.scss'
 })
