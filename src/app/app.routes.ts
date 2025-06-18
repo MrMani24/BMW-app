@@ -3,6 +3,7 @@ import { PublicNavigationComponent } from './+navigations/public-navigation/ui/p
 import { HomeComponent } from './+pages/home/ui/home.component';
 import { ModelsComponent } from './+pages/models/ui/models.component';
 import { Pages404Component } from './+pages/pages404/ui/pages404.component';
+import { FooterComponent } from './+pages/footer/ui/footer/footer.component';
 
 export const routes: Routes = [
   {
